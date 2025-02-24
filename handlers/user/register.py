@@ -15,7 +15,7 @@ class Registration(StatesGroup):
     email = State()
     phone = State()
 
-@router.message(Command('register'))
+@router.message(lambda message: message.text == "Регистрация 📝")
 async def start_command(message: types.Message, state: FSMContext):
     await message.answer("Введите ваше имя:")
     await state.set_state(Registration.name)
