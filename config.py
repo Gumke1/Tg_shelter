@@ -1,7 +1,7 @@
 import os
 
 # Telegram Bot Token
-BOT_TOKEN = "7725638471:AAE9yMCH8p_6Ir5IyofkIfgSXk2XvRdt0uQ"
+BOT_TOKEN = ""
 
 # Database Configuration
 DATABASE_URL = os.environ.get("DATABASE_URL") or "postgresql+psycopg2://man:man@localhost:5432/mydb"
@@ -11,8 +11,8 @@ DATABASE_PASSWORD = "man"
 DATABASE_HOST = "localhost"
 DATABASE_PORT = 5432
 
-access_key="YCAJE3Hz1hrCLhDcoMnKNhgx5"
-secret_key="YCO4Wy5ZqPCmlrVbWMF1WcWeGhLYxKSuGEeJebp3"
+access_key=""
+secret_key=""
 endpoint_url="https://storage.yandexcloud.net/",
 bucket_name="alekseyhouse"
 region_name="ru-central1"
